@@ -19,7 +19,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="citylab/img/logo.png" alt="Girl in a jacket">
+                <img src="{{ URL::asset('citylab/img/logo.png') }}" alt="Girl in a jacket">
+
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
